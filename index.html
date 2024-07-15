@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veggie boost</title>
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__left-element">
+        <nav>
+          <ul class="nav-items nav-items_tablet">
+            <li><a class="nav-items__link" href="#works">How It Works</a></li>
+            <li>
+              <a class="nav-items__link" href="#vegetables">Vegetables</a>
+            </li>
+            <li><a class="nav-items__link" href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header__center-element">
+        <div class="logo">
+          <svg class="logo__icon logo__icon_green">
+            <use xlink:href="./assets/icons/sprite.svg#logo"></use>
+          </svg>
+          veggieboost
+        </div>
+      </div>
+
+      <div class="header__right-element">
+        <div class="header__shopping-cart">
+          <a class="header__shopping-cart-link" href="#">
+            <svg class="header__shopping-cart-icon">
+              <use xlink:href="./assets/icons/sprite.svg#shopping-cart"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hamburger-menu">
+        <input id="hamburger-menu__toogle" type="checkbox" />
+        <label class="hamburger-menu__btn" for="hamburger-menu__toogle">
+          <span></span>
+        </label>
+
+        <ul class="hamburger-menu__box">
+          <li>
+            <a class="hamburger-menu__item" href="#">How It Works</a>
+          </li>
+          <li>
+            <a class="hamburger-menu__item" href="#">Vegetables</a>
+          </li>
+          <li>
+            <a class="hamburger-menu__item" href="#">Contacts</a>
+          </li>
+          <li>
+            <a class="hamburger-menu__item" href="#">
+              <svg class="hamburger-menu__shopping-cart-icon">
+                <use
+                  xlink:href="./assets/icons/sprite.svg#shopping-cart-white"
+                ></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="section-hero__container">
+          <div class="section-hero__box-reviews">
+            <img
+              class="section-hero__img-reviews section-hero__img-reviews_position-1"
+              src="./assets/images/section-hero_user1.svg"
+              alt="user 1"
+            />
+            <img
+              class="section-hero__img-reviews section-hero__img-reviews_position-2"
+              src="./assets/images/section-hero_user2.svg"
+              alt="user 2"
+            />
+            <img
+              class="section-hero__img-reviews section-hero__img-reviews_position-3"
+              src="./assets/images/section-hero_user3.svg"
+              alt="user 3"
+            />
+            <div class="section-hero__circle-reviews">
+              <span class="section-hero__span-reviews_cap">2K</span>
+              <span class="section-hero__span-reviews_lowercase">reviews</span>
+            </div>
+          </div>
+          <h1 class="page-title section-hero__title">
+            organic <span class="page-title_italic">vegetables</span> to your
+            diet today!
+          </h1>
+          <p class="section-hero__text">
+            Our expertly curated vegetable baskets are made with the freshest,
+            highest quality vegetables available. Fresh Harvest Box has got you
+            covered. Fresh, high-quality vegetables in expertly curated
+            vegetable baskets delivered to you.
+          </p>
+          <button class="section-hero__button">shop<br />now</button>
+          <img
+            class="section-hero__image"
+            src="./assets/images/section-hero_image_1.svg"
+            alt="woman with salat"
+          />
+          <div class="section-hero__box-hashtag">
+            <a class="section-hero__hashtag" href="">#organic</a>
+            <a class="section-hero__hashtag" href="">#products</a>
+            <a class="section-hero__hashtag" href="">#basket</a>
+            <a class="section-hero__hashtag" href="">#vegetables</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-order" id="works">
+        <div class="section-order__container">
+          <h2 class="title section-order__title">
+            To order your vegetable basket, simply follow these easy steps
+          </h2>
+          <img
+            src="./assets/images/section-order__img-vegetables.png"
+            alt="img vegetables"
+            class="section-order__img"
+          />
+          <div class="section-order__desc">
+            <p class="section-order__column">
+              Our baskets are assembled with care and delivered straight to your
+              doorstep, so you can enjoy the taste of fresh fruit without ever
+              leaving your home.
+            </p>
+            <p class="section-order__column">
+              Whether you're looking for a healthy snack or a thoughtful gift,
+              our fruit baskets are the perfect choice.
+            </p>
+          </div>
+        </div>
+
+        <section class="section-steps">
+          <div class="section-steps__container">
+            <span class="section-steps__img"></span>
+            <div class="section-steps__content">
+              <h3 class="subtitle section-steps__subtitle">
+                3 EASY STEPS FOR BUYING FRESH VEGETABLES
+              </h3>
+              <ol class="section-steps__items">
+                <li class="section-steps__item">
+                  Just choose the vegetable you want to order by clicking on the
+                  checkboxes next to it.
+                </li>
+                <li class="section-steps__item">
+                  Click on the basket and fill out the form.
+                </li>
+                <li class="section-steps__item">
+                  Sit back and relax! Your fresh vegetables basket will be
+                  delivered.
+                </li>
+              </ol>
+            </div>
+          </div>
+        </section>
+
+        <div class="section-order__wrapper">
+          <div
+            class="section-order__wrapper-ribbon section-order__wrapper-ribbon_back"
+          >
+            <p>
+              Discount up to <em>40%</em>! Taste the vitamins and keep your
+              health Discount up to <em>40%</em>! Taste the vitamins and keep
+              your health
+            </p>
+          </div>
+          <div class="section-order__wrapper-ribbon">
+            <p>
+              Discount up to 40%! Taste <em>the vitamins</em> and keep your
+              health Discount up to 40%! Taste <em>the vitamins</em> and keep
+              your health
+            </p>
+          </div>
+        </div>
+
+        <section class="section-vegetables" id="vegetables">
+          <div class="section-vegetables__container">
+            <h3 class="subtitle section-vegetables__subtitle">
+              ORGANIC VEGETABLES
+            </h3>
+            <p class="section-vegetables__text">
+              Our organic vegetables are hand-picked from local farms and
+              delivered straight to your doorstep, ensuring that you get the
+              freshest and most nutritious produce possible.
+            </p>
+            <div class="section-vegetables__cards">
+              <div class="card-vegetables">
+                <p class="card-vegetables__title">Carrot</p>
+                <p class="card-vegetables__species">Plant</p>
+                <div class="card-vegetables__img_area">
+                  <img
+                    src="./assets/images/card__img_carrot.png"
+                    class="card-vegetables__img_carrot"
+                    alt="carrot"
+                  />
+                  <span class="card-vegetables__shadow"></span>
+                </div>
+                <p class="card-vegetables__weight">100 UAH / kg</p>
+              </div>
+              <div class="card-vegetables">
+                <p class="card-vegetables__title">Brussel sprouts</p>
+                <p class="card-vegetables__species">Plant</p>
+                <div class="card-vegetables__img_area">
+                  <img
+                    src="./assets/images/card__img__brussel_sprouts.png"
+                    class="card-vegetables__img_sprouts"
+                    alt="brussel sprouts"
+                  />
+                  <span class="card-vegetables__shadow"></span>
+                </div>
+                <p class="card-vegetables__weight">80 UAH / kg</p>
+              </div>
+              <div class="card-vegetables">
+                <p class="card-vegetables__title">Tomato</p>
+                <p class="card-vegetables__species">Plant</p>
+                <div class="card-vegetables__img_area">
+                  <img
+                    src="./assets/images/card__img__tomato.png"
+                    class="card-vegetables__img_tomato"
+                    alt="tomato"
+                  />
+                  <span class="card-vegetables__shadow"></span>
+                </div>
+                <p class="card-vegetables__weight">40 UAH / kg</p>
+              </div>
+              <div class="card-vegetables">
+                <p class="card-vegetables__title">Eggplant</p>
+                <p class="card-vegetables__species">Plant</p>
+                <div class="card-vegetables__img_area">
+                  <img
+                    src="./assets/images/card__img__eggplant.png"
+                    class="card-vegetables__img_eggplant"
+                    alt="eggplant"
+                  />
+                  <span class="card-vegetables__shadow"></span>
+                </div>
+                <p class="card-vegetables__weight">60 UAH / kg</p>
+              </div>
+              <div class="card-vegetables">
+                <p class="card-vegetables__title">Sweet potatoes</p>
+                <p class="card-vegetables__species">Plant</p>
+                <div class="card-vegetables__img_area">
+                  <img
+                    src="./assets/images/card__img__potatoes.png"
+                    class="card-vegetables__img_potatoes"
+                    alt="potatoes"
+                  />
+                  <span class="card-vegetables__shadow"></span>
+                </div>
+                <p class="card-vegetables__weight">80 UAH / kg</p>
+              </div>
+              <div class="card-vegetables">
+                <p class="card-vegetables__title">Leek</p>
+                <p class="card-vegetables__species">Plant</p>
+                <div class="card-vegetables__img_area">
+                  <img
+                    src="./assets/images/card__img__leek.png"
+                    class="card-vegetables__img_leek"
+                    alt="leek"
+                  />
+                  <span class="card-vegetables__shadow"></span>
+                </div>
+                <p class="card-vegetables__weight">50 UAH / kg</p>
+              </div>
+              <div class="card-vegetables">
+                <p class="card-vegetables__title">Mushrooms</p>
+                <p class="card-vegetables__species">Plant</p>
+                <div class="card-vegetables__img_area">
+                  <img
+                    src="./assets/images/card__img__mushrooms.png"
+                    class="card-vegetables__img_mushrooms"
+                    alt="mushrooms"
+                  />
+                  <span class="card-vegetables__shadow"></span>
+                </div>
+                <p class="card-vegetables__weight">40 UAH / kg</p>
+              </div>
+              <div class="card-vegetables">
+                <p class="card-vegetables__title">Corn</p>
+                <p class="card-vegetables__species">Plant</p>
+                <div class="card-vegetables__img_area">
+                  <img
+                    src="./assets/images/card__img__corn.png"
+                    class="card-vegetables__img_corn"
+                    alt="corn"
+                  />
+                  <span class="card-vegetables__shadow"></span>
+                </div>
+                <p class="card-vegetables__weight">60 UAH / kg</p>
+              </div>
+              <div class="card-vegetables">
+                <p class="card-vegetables__title">Radish</p>
+                <p class="card-vegetables__species">Plant</p>
+                <div class="card-vegetables__img_area">
+                  <img
+                    src="./assets/images/card__img__radish.png"
+                    class="card-vegetables__img_radish"
+                    alt="radish"
+                  />
+                  <span class="card-vegetables__shadow"></span>
+                </div>
+                <p class="card-vegetables__weight">90 UAH / kg</p>
+              </div>
+            </div>
+            <button class="section-vegetables__button">
+              <img
+                class="section-vegetables__button_img"
+                src="./assets/icons/section-vegetables__button__img.svg"
+                alt=""
+              />
+              <span class="section-vegetables__button_name">ORDER</span>
+            </button>
+          </div>
+        </section>
+
+        <section class="section-shipping">
+          <div class="section-shipping__container">
+            <img
+              src="./assets/images/section-shipping__img.svg"
+              class="section-shipping__img"
+              alt=""
+            />
+            <h3 class="subtitle section-shipping__subtitle">
+              THE BEST SHIPPING FOR YOU!
+              <i class="section-shipping__subtitle_color">YOUR PRODUCTS </i>
+              ALWAYS ARRIVE IN THE
+              <i class="section-shipping__subtitle_color2">BEST </i> CONDITIONS!
+            </h3>
+          </div>
+        </section>
+      </section>
+
+      <section class="section-contact">
+        <div class="section-contact__contacts">
+          <h2 class="title section-contact__title">
+            Fresh Harvest Box has got you covered
+          </h2>
+
+          <p class="section-contact__text">
+            Our boxes are packed with delicious, nutritious vegetables, perfect
+            for anyone looking to eat healthier or support local farmers. Order
+            your box today and start enjoying the best that nature has to offer!
+          </p>
+
+          <form class="section-contact__form">
+            <div class="section-contact__wrapper">
+              <label class="section-contact__label">
+                <input
+                  class="section-contact__input"
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  placeholder="+ 380 ()"
+                />
+              </label>
+
+              <button class="section-contact__button">Recall</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="section-contact__container">
+          <div class="section-contact__background">
+            <img
+              class="section-contact__img"
+              src="./assets/images/woman.png"
+              alt="woman with broccoli"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contacts">
+      <div class="footer__container">
+        <div class="footer__left-element">
+          <img
+            class="footer__img"
+            src="./assets/images/footer-img-vegetables.svg"
+            alt="broccoli"
+          />
+          <div class="logo">
+            <svg class="logo__icon">
+              <use xlink:href="assets/icons/sprite.svg#logo"></use>
+            </svg>
+            veggieboost
+          </div>
+        </div>
+
+        <div class="footer__menu">
+          <nav>
+            <ul class="nav-items nav-items_tablet">
+              <li><a class="nav-items__link" href="#works">How It Works</a></li>
+              <li>
+                <a class="nav-items__link" href="#vegetables">Vegetables</a>
+              </li>
+              <li><a class="nav-items__link" href="#contacts">Contacts</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="footer__right-element">
+          <address>
+            <img
+              src="./assets/images/footer-social-media-icon3.svg"
+              alt="youtube"
+            />
+            <p>+380 (68) 443-94-26</p>
+            <p>
+              1678 S. Pioneer Road <br />
+              Salt Lake City <br />
+              UT 84104
+            </p>
+          </address>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
