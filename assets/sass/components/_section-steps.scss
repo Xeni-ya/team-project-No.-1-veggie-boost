@@ -1,0 +1,152 @@
+.section-steps {
+  @extend %container;
+
+  margin-top: $global-margin-desktop;
+}
+
+.section-steps__container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1216px;
+  width: 100%;
+  padding: 0 80px 0 80px;
+  gap: 10px;
+  border-radius: 80px;
+  background-image: url(../images/section-shipping__img_background.png);
+  background-size: cover;
+  background-color: $beige;
+}
+.section-steps__img {
+  padding-top: 40px;
+  content: url(../images/section-steps_img_girl.png);
+}
+.section-steps__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-steps__subtitle {
+  max-width: 512px;
+  width: 100%;
+  padding-bottom: 40px;
+  letter-spacing: -0.04em;
+}
+
+.section-steps__items {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin: 0;
+  gap: 20px;
+  list-style-type: none;
+  counter-reset: item;
+}
+.section-steps__item {
+  display: flex;
+  align-items: center;
+  max-width: 349px;
+  width: 100%;
+  font-size: 1.4em;
+  line-height: 18px;
+  letter-spacing: -0.04em;
+}
+
+.section-steps__item:nth-child(2) {
+  max-width: 220px;
+}
+
+.section-steps__item::before {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  content: counter(item);
+  counter-increment: item;
+  max-width: 46px;
+  width: 100%;
+  height: 46px;
+  margin-right: 14px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+  color: $dark;
+  border-radius: 50%;
+  background: $green;
+  float: left;
+}
+@media screen and (max-width: 974px) {
+  .section-steps__container {
+    padding: 0 40px 0 0;
+  }
+  .section-steps__img {
+    content: url(../images/section-steps__img2.png);
+  }
+  .section-steps__subtitle {
+    font-size: 2.8em;
+    line-height: 32px;
+  }
+  .section-steps__content {
+    max-width: 374px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .section-steps__content {
+    max-width: 274px;
+  }
+  .section-steps__item {
+    max-width: 236px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-steps {
+    margin-top: $global-margin-tablet;
+  }
+}
+
+@media screen and (max-width: 682px) {
+  .section-steps__container {
+    justify-content: center;
+    padding: 40px 20px 0;
+    gap: 20px;
+    flex-wrap: wrap-reverse;
+  }
+  .section-steps__content {
+    max-width: 350px;
+  }
+  .section-steps__item {
+    max-width: 350px;
+  }
+}
+@media screen and (max-width: 512px) {
+  .section-steps__container {
+    border-radius: 40px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .section-steps__subtitle {
+    font-size: 2.4em;
+    line-height: 28px;
+  }
+  .section-steps__img {
+    padding-top: 0;
+    content: url(../images/section-steps__img3.png);
+  }
+  .section-steps__content {
+    max-width: 295px;
+  }
+  .section-steps__item {
+    max-width: 230px;
+  }
+  .section-steps__item::before {
+    max-width: 40px;
+    height: 40px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .section-steps {
+    margin-top: $global-margin-mobile;
+  }
+}

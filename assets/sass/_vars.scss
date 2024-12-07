@@ -1,0 +1,17 @@
+// "  sass --watch assets/sass/index.scss assets/styles/style.css  "
+// команда для быстрой вставки в терминал - запускает компиляцию кода SASS в CSS, терминал должен оставаться открытым
+
+//========Цвета========//
+$dark: #141414;
+$white: #fff;
+$green: #a1c487;
+$dark-green: #77ac63;
+$light-green: #eaf7e5;
+$beige: #faf3e7;
+$orange: #fc8a11;
+$grey: #f9f7f4;
+$grey-input: #c1bdbd;
+
+$global-margin-desktop: 124px;
+$global-margin-tablet: 100px;
+$global-margin-mobile: 80px;
