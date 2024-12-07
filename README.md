@@ -15,32 +15,32 @@
 <img src="https://sun9-55.userapi.com/impg/kT0uTmAc1q0-grransGC_vtiJyTBYFc8SJ8JJQ/pbu6GWEoRPU.jpg?size=2560x1316&quality=95&sign=34ed6855e38a951cbdbce6ad5f3953bb&type=album">
 </div>
 
-## Description
+## Описание
 
-**A responsive and adaptive** landing page for the food retail industry.
+**Адаптивная целевая страница для розничной торговли продуктами питания.
 
-This is an educational project made by students of the #itgirlschool.
+Это образовательный проект, созданный ученицами школы #itgirlschool.
 
-[Go to link](https://lynchdiva.github.io/veggie-boost/)
+[Перейти по ссылке](https://lynchdiva.github.io/veggie-boost/)
 
-## About the project
+## О проекте
 
-Veggieboost implemented on Sass preprocessor. In the project were used the following technologies:
+Veggieboost реализован на препроцессоре Sass. В проекте были использованы следующие технологии:
 
 - Flexbox
 - CSS Grid Layout
 
-This website is displayed correctly at all resolutions _from 320px to 2560px and higher._ For resolutions less than 680px, a hamburger menu has been implemented on pure CSS.
+Этот веб-сайт корректно отображается при любом разрешении - от 320 до 2560 пикселей и выше. Для разрешений менее 680 пикселей меню гамбургеров было реализовано на чистом CSS.
 
 <div align="center">
 <img src="./readme-assets/start.png">
 <img src="./readme-assets/Menu.png">
 </div>
 
-The project has animation for hovering the cursor over buttons and product cards.
+В проекте есть анимация для наведения курсора на кнопки и карточки товаров.
 
-Also it has working navigation through page sections.
+Также в нем есть рабочая навигация по разделам страницы.
 
-## Future scope
+## Будущие возможности
 
-- Add Pop-up element
+- Добавление всплывающего элемента
