@@ -15,32 +15,41 @@
 <img src="https://sun9-55.userapi.com/impg/kT0uTmAc1q0-grransGC_vtiJyTBYFc8SJ8JJQ/pbu6GWEoRPU.jpg?size=2560x1316&quality=95&sign=34ed6855e38a951cbdbce6ad5f3953bb&type=album">
 </div>
 
-## Description
+## Описание
 
-**A responsive and adaptive** landing page for the food retail industry.
+**Адаптивная целевая** страница для розничной торговли продуктами питания.
 
-This is an educational project made by students of the #itgirlschool.
+Это образовательный проект, созданный ученицами #girlschool.
 
-[Go to link](https://lynchdiva.github.io/veggie-boost/)
+- Срок выполнения работы - 2 недели.
+- Количество человек в команде - 5 человек
+- [Я](https://github.com/Xeni-ya) занималась разработкой секций section-order и section-order\_\_wrapper
 
-## About the project
+[Перейти по ссылке](https://lynchdiva.github.io/veggie-boost/)
 
-Veggieboost implemented on Sass preprocessor. In the project were used the following technologies:
+## О проекте
+
+Veggieboost реализован на препроцессоре Sass. В проекте были использованы следующие технологии:
 
 - Flexbox
 - CSS Grid Layout
 
-This website is displayed correctly at all resolutions _from 320px to 2560px and higher._ For resolutions less than 680px, a hamburger menu has been implemented on pure CSS.
+Данный веб-сайт корректно отображается при всех разрешениях от 320px to 2560px and higher.и выше. Для разрешений менее 680px, меню для гамбургеров было реализовано на чистом CSS.
 
 <div align="center">
 <img src="./readme-assets/start.png">
 <img src="./readme-assets/Menu.png">
 </div>
 
-The project has animation for hovering the cursor over buttons and product cards.
+В проекте есть анимация для наведения курсора на кнопки и карточки товаров.
 
-Also it has working navigation through page sections.
+Также в нем есть рабочая навигация по разделам страницы.
 
-## Future scope
+## Будущая область применения
 
-- Add Pop-up element
+- Добавлен всплывающий элемент
+
+## Технологии:
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
